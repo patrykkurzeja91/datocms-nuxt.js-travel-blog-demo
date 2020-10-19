@@ -78,7 +78,7 @@ export default {
         ${seoMetaTagsFields}
       `,
       variables: {
-        slug: params.id
+        slug: params.slug
       }
     })
 

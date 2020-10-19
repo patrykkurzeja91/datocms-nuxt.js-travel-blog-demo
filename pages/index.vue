@@ -20,7 +20,10 @@
                       {{ formatDate(post.publicationDate) }}
                     </h2>
                     <h1 class="title">
-                      <nuxt-link :to="`/posts/${post.slug}`">{{
+                      <!-- <nuxt-link :to="`/posts/${post.slug}`">{{
+                        post.title
+                      }}</nuxt-link> -->
+                      <nuxt-link :to="{name: 'posts-slug', params: {slug: post.slug}}">{{
                         post.title
                       }}</nuxt-link>
                     </h1>
@@ -88,7 +91,10 @@
                       {{ formatDate(post.publicationDate) }}
                     </h2>
                     <h1 class="title has-text-black is-3">
-                      <nuxt-link :to="`/posts/${post.slug}`">{{
+                      <!-- <nuxt-link :to="`/posts/${post.slug}`">{{
+                        post.title
+                      }}</nuxt-link> -->
+                      <nuxt-link :to="{name: 'posts-slug', params: {slug: post.slug}}">{{
                         post.title
                       }}</nuxt-link>
                     </h1>
