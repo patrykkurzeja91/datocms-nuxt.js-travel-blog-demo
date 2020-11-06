@@ -7,5 +7,5 @@
   "buildCommand": "npm run generate",
   "buildDirectory": "dist",
   "datocmsApiTokenEnvName": "NUXT_ENV_DATOCMS_API_TOKEN",
-  "livePreviewUrl": "https://datocms-nuxtjs-demo.netlify.com"
+  "livePreviewUrl": "https://dato-cms-blog-pk.netlify.app.netlify.com"
 }
