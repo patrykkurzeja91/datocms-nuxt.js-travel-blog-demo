@@ -4,6 +4,10 @@
 
 [![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/deploy?repo=datocms/nuxtjs-demo)
 
+## Netlify status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8e655830-e3fc-479b-808e-15647c8dfe7d/deploy-status)](https://app.netlify.com/sites/dato-cms-blog-pk/deploys)
+
 ## Build Setup
 
 ```bash
